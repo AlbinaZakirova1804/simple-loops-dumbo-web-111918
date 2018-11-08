@@ -2,8 +2,10 @@
 
 def loop_iterator(number_of_times)
   count = 1
-  while count <number_of_times
-    puts 
+  loop do count <number_of_times
+    puts  "Welcome to Flatiron School's Web Development Course!"
+    count+ = 1
+  end
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer 
   # The integer is the number of times the loops should puts out the phrase
